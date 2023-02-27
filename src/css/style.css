@@ -56,6 +56,38 @@ nav h2 {
     margin-top: 15%;
 }
 
+.notify-me-btn {
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: solid #ffffff 3px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 3px;
+    transition: 1073ms;
+    transform: translateY(0);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.notify-me-btn:hover {
+    transition: 1073ms;
+    padding: 10px 40px;
+    transform: translateY(-0px);
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 3px #ffffff;
+}
+
+.center {
+    text-align: center;
+}
+
+.mt-btn {
+    margin-top: 18px;
+}
+
 
 /*  -----  footer -----  */
 
@@ -77,6 +109,8 @@ footer p {
 /*  ------  Responsive media queries ----- */
 
 
+
+/* extra small devices < 576 */
 @media (max-width: 576px) {
     .main-text {
         font-size: 35px;
@@ -87,7 +121,22 @@ footer p {
     }
 
     .margin-top {
-        margin-top: 70%;
+        margin-top: 50%;
+    }
+
+}
+
+@media (max-width: 576px) and (min-width: 768px) {
+    .margin-top {
+        margin-top: 50%;
+    }
+}
+
+/*  */
+@media (min-width: 768px) {
+
+    .margin-top {
+        margin-top: 15%;
     }
 
 }
