@@ -1,0 +1,93 @@
+html body {
+    height: 100vh !important;
+}
+
+.background {
+    background: rgb(94, 91, 157);
+    background: linear-gradient(350deg, rgba(94, 91, 157, 1) 0%, rgba(190, 114, 143, 1) 100%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 400;
+    font-size: 68px;
+    margin: 0;
+}
+
+
+.text-white {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* ------    navbar   ------  */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+nav h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    margin: 0;
+    text-align: center;
+}
+
+/* Sections */
+
+.section-child {
+    height: 100%;
+}
+
+.margin-top {
+    margin-top: 15%;
+}
+
+
+/*  -----  footer -----  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+
+footer p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/*  ------  Responsive media queries ----- */
+
+
+@media (max-width: 576px) {
+    .main-text {
+        font-size: 35px;
+    }
+
+    .child-text {
+        font-size: 12px;
+    }
+
+    .margin-top {
+        margin-top: 70%;
+    }
+
+}
